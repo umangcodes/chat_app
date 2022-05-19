@@ -1,9 +1,10 @@
-import "./App.css";
-
+import Header from "./components/navigation/Header";
+import { useState } from "react";
 function App() {
+  const [signedIn, setSignedIn] = useState(false);
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <Header signInState={signedIn} handleSignIn={setSignedIn} />
     </div>
   );
 }
