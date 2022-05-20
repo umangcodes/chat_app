@@ -63,7 +63,7 @@ const Chatroom = (props) => {
   };
   return (
     <div>
-      <ul className="h-96 border-b my-5">
+      <ul className="min-h-full border-b my-5">
         {/* {console.log(messages)} */}
         {messages &&
           messages.map((msg) => (
