@@ -62,8 +62,8 @@ const Chatroom = (props) => {
     }
   };
   return (
-    <div>
-      <ul className="min-h-full border-b my-5">
+    <div className="flex flex-col">
+      <ul className="h-auto border-b my-5 flex flex-col w-full">
         {/* {console.log(messages)} */}
         {messages &&
           messages.map((msg) => (
