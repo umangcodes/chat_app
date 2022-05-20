@@ -3,7 +3,7 @@ import Logo from "../../mhl.png";
 function Footer() {
   return (
     <div className="">
-      <div className="fixed bottom-0 flex p-5 justify-center w-full border-t bg-white">
+      <div className="flex p-5 my-5 justify-center w-full border-t bg-white">
         <div className="">
           <img src={Logo} alt="MHL" className="h-16 " />
         </div>
