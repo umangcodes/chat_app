@@ -11,7 +11,9 @@ function Message(props) {
   return (
     <div
       className={
-        sent ? "bg-lime-100 rounded-full w-50" : "bg-teal-100 rounded-full"
+        sent
+          ? "bg-lime-100 rounded-full max-w-2xl justify-end my-2"
+          : "bg-teal-100 rounded-full max-w-2xl justify-start my-2"
       }
     >
       <div className="mx-5 pt-2">{messageFrom}</div>
