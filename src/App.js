@@ -37,8 +37,8 @@ function App() {
     return unsubscribe;
   }, [auth, db]);
   return (
-    <div className="h-screen">
-      <div className="h-screen">
+    <div className="">
+      <div className=" flex flex-col">
         {user ? (
           <>
             <div className="flex my-5 justify-between mx-5">
@@ -62,7 +62,7 @@ function App() {
           <div className="h-4/5 flex justify-center align-center">
             <button
               onClick={signInWithGoogle}
-              className=" hover:scale-105 transition ease-linear hover:font-semibold"
+              className=" hover:scale-105 transition ease-linear hover:font-semibold h-96"
             >
               Login with Google
             </button>
